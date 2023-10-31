@@ -12,12 +12,18 @@ b, c, d = 5, 6.4, "Great Stefan"
 
 print(d)
 
-#DAY2
+#Numeric Data Types:
+#int / long / float - with decimal places up to 15 places / complex 100 + 3j ??
 
-#print("Value is, " + b)
+# DAY2
+
+# print("Value is, " + b)
 
 print("{} {}".format("Value is ", b))
 
 print(type(b))
 print(type(c))
 print(type(d))
+
+str = 'Stefan'
+print(str)
