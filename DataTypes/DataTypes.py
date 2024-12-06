@@ -25,5 +25,5 @@ print(type(b))
 print(type(c))
 print(type(d))
 
-str = 'Stefan'
-print(str)
+stringA = 'Stefan'
+print(stringA)
