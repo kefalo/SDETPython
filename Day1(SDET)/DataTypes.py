@@ -20,6 +20,8 @@ floatVariabla = 10.11
 stringVariabla = "StringVariabla"
 booleanVariabla = True
 
+list ={1:"str"}
+
 print(type(intVariabla))
 print(type(floatVariabla))
 print(type(stringVariabla))
