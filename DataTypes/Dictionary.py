@@ -2,6 +2,7 @@
 
 dic1 = {"key1": 1, 2: "key2" }
 print(dic1["key1"])
+print(dic1[2])
 
 dic2 = {1: "jedan", 22: "BMW", "M": 745}
 
