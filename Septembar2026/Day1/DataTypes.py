@@ -30,12 +30,11 @@ print(string0 + int0) -it will NOT work"""
 
 print("{} {}".format(string0, int0))
 
-#f-Strings koristi se za konkatanaciju Stringova i za outpu gde imamo text + variabla
-
+#f-Strings koristi se za konkatanaciju Stringova i za output gde imamo text + variabla
 steps = 9200
 name_runner = 'Test f-Strings'
 
-print(f"{name_runner} walked {steps} steps\nStefan")
+print(f"{name_runner} walked {steps} steps\nStefan") #f Strings
 
 ############################################
 
@@ -59,10 +58,7 @@ print("Favorite Color:",favorite_color, "| Type:",type(favorite_color))
 
 # Sequence type: list, tuple, range
 # Mapping type: dict """
-
-
 #TUPAL - ne mozes da menjas vrednost - immutable
-
 tupal_one = ("apple", "banana", "cherry")
 print(tupal_one[0])
 
@@ -75,9 +71,20 @@ print(tupal_one.count("Stefan"))
 
 list_one = [1, "Stefan", 'S', True, 43.77]
 print(list_one)
+print(list_one[-1])
+print(list_one[1:3])
+
+#adding to the list
+list_one.insert(2, "Marinkovic")
+print(list_one)
+
+list_one[1] = "STEFAN"  #updating the value for parameter
+print(list_one)
 
 list_one.append("FANSTE")
+print(list_one)
 
+del list_one[0]
 print(list_one)
 
 #duzina tj koliko entiteta postoji u listi
@@ -92,6 +99,14 @@ print("######################################################")
 print(dict1["key1"])
 print(dict1["key2"])
 print(dict1[3])
+
+dict2 = {}
+
+dict2["key1"] = 1
+dict2["key2"] = 2
+dict2[3] = 3
+print(dict2)
+
 
 
 # range - like a tupal just with range of numbers
