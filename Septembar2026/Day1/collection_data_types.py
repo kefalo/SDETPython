@@ -16,6 +16,9 @@ print(tupal_one[0])
 print(tupal_one.count(2))
 print(tupal_one.count("Stefan"))
 
+print("#########################################################")
+
+###########################################################################
 # Lists - Arrays - mutable - mozes da ih edit kasnije
 list_one = [False, 1, "Stefan", 'S', True, 43.77]
 print(list_one)
@@ -39,7 +42,8 @@ print(list_one)
 #duzina tj koliko entiteta postoji u listi
 print(len(list_one))
 
-# Dictionary
+
+################# Dictionary ##################
 dict1 = {"key1": 1, "key2": 2, 3:"key3"}
 print(dict1)
 print("######################################################")
@@ -53,6 +57,8 @@ dict2["key1"] = 1
 dict2["key2"] = 2
 dict2[3] = 3
 print(dict2)
+
+
 
 # range - like a tupal just with range of numbers
 x = range(6)
